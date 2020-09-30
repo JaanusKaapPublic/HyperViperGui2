@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HyperViperGuiHypercall", "HyperViperGuiHypercall\HyperViperGuiHypercall.csproj", "{A5D001FF-7BC6-4136-83B8-83EF7C9702D4}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Driver", "Driver\Driver.shproj", "{4386E2EA-9835-4E25-B4DE-65D4266EBE86}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Driver\Driver.projitems*{4386e2ea-9835-4e25-b4de-65d4266ebe86}*SharedItemsImports = 13
+		Driver\Driver.projitems*{a5d001ff-7bc6-4136-83b8-83ef7c9702d4}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5D001FF-7BC6-4136-83B8-83EF7C9702D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5D001FF-7BC6-4136-83B8-83EF7C9702D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5D001FF-7BC6-4136-83B8-83EF7C9702D4}.Debug|x64.ActiveCfg = Debug|x64
+		{A5D001FF-7BC6-4136-83B8-83EF7C9702D4}.Debug|x64.Build.0 = Debug|x64
+		{A5D001FF-7BC6-4136-83B8-83EF7C9702D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5D001FF-7BC6-4136-83B8-83EF7C9702D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5D001FF-7BC6-4136-83B8-83EF7C9702D4}.Release|x64.ActiveCfg = Release|x64
+		{A5D001FF-7BC6-4136-83B8-83EF7C9702D4}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D15B3064-7E8D-4FC4-BF21-15D0CBD9FD28}
+	EndGlobalSection
+EndGlobal
